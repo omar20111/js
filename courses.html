@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <div class="flex">
+</div>
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+  <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png">
+  
+    <ul class="text2">
+      <li><a class="text1"  href="index.html">HOME</a></li>
+      <li><a class="text1"  href="courses.html">COURSES</a></li>
+      <li><a class="text1"  href="contact.html">CONTACT</a></li>
+    </ul>
+  
+  </header>
+  <div class="img3">
+      <h1 class="iyad">COURSES</h1>
+    </div>
+  <div class="picture">
+    <img src="res/okm.PNG" alt="">
+    <img src="res/oiipok;pok.PNG" alt="">
+    <img src="res/Capturmm.PNG" alt="">
+  </div>
+  <div class="picture">
+    <img src="res/Capture1.PNG" alt="">
+    <img src="res/Capture2.PNG" alt="">
+    <img src="res/Capture3.PNG" alt="">
+  </div>
+  <div class="picture">
+    <img src="res/Capture4.PNG" alt="">
+    <img src="res/Capture5.PNG" alt="">
+    <img src="res/Capture6.PNG" alt="">
+  </div>
+  <br>
+  <h1 class="feedback">Feedback</h1>
+  <div class="align">
+    <input type="button"  onclick="changeBold()" value="B">
+    <input type="button" onclick="changeItalic()" value="I">
+    <input type="button" onclick="changeUnderline()" value="Underline">
+
+    <select id="fontSize"  onchange="changeSize()">
+      <option  value="20px">20px</option>
+      <option  value="30px">30px</option>
+      <option  value="40px">40px</option>
+    </select>
+
+
+
+    <select id="font" onclick="changePolice()">
+      <option value="Arial" >Arial</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Geneva">Geneva</option>
+    </select>
+    <br>
+    <br>
+    <textarea  id="text"  rows="3" style=""></textarea>
+  </div>
+
+</body>
+<script src="js/main.js"></script>
